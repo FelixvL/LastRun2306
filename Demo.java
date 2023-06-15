@@ -1,4 +1,4 @@
-class Demo{   // DJ
+class Demo{   // DK
 	public static void main(String[] args){
 		System.out.println("Beginnen");
 		Fiets f = new Fiets(17);
@@ -22,6 +22,9 @@ class Fiets extends Voertuig{
 	Fiets(){
 		this(8);
 		snelheid = 9;
+	}
+	Fiets(int w){
+		System.out.println("de andere");
 	}
 
 }

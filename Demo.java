@@ -1,4 +1,4 @@
-class Demo{   // DM
+class Demo{   // DN
 	public static void main(String[] args){
 		System.out.println("Beginnen");
 		Fiets f = new Fiets(17);
@@ -20,6 +20,9 @@ class Fiets extends Voertuig{
 	}
 	Fiets(long w){
 		System.out.println("de andere");
+	}
+	Fiets(Integer i){
+		System.out.println("nog een??");
 	}
 
 }

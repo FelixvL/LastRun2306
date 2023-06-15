@@ -1,10 +1,10 @@
-class Demo{   // DC
+class Demo{   // DD
 	public static void main(String[] args){
 		System.out.println("Beginnen");
 		Fiets f = new Fiets();
 		f.doen(6);
 		String iets = new String("voordoen");
-		iets.concat("nadoen");
+		iets = iets.concat("nadoen");
 		System.out.println(iets);
 	}
 

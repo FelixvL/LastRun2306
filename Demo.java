@@ -1,4 +1,4 @@
-class Demo{   // EO
+class Demo{   // EP
 	static int iets = rennen();
 	public static void main(String[] args){
 		System.out.println("Beginnen");
@@ -8,7 +8,7 @@ class Demo{   // EO
 	static void iets(int h){
 		h = 33;
 	}
-	int rennen(){
+	static int rennen(){
 		System.out.println("we gaan rennen");
 		return 17;
 	}

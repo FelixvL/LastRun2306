@@ -1,8 +1,10 @@
-class Demo{   // EJ
+class Demo{   // EK
 	public static void main(String[] args){
 		System.out.println("Beginnen");
-		boolean[] bbb = new boolean[5];
+		Hond[] bbb = new Hond[5];
 		System.out.println(bbb[2]);
 	}
 
+}
+class Hond{
 }

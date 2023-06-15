@@ -1,8 +1,8 @@
-class Demo{   // EA
+class Demo{   // EB
 	public static void main(String[] args){
 		System.out.println("Beginnen");
-		int[] getallen = new int[14];
-		System.out.println(getallen);
+		int[] getallen = new int[]{ 2, 3, 4, 5 };
+		System.out.println(getallen[3]);
 	}
 
 }

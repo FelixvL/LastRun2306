@@ -1,4 +1,4 @@
-class Demo{   // DI
+class Demo{   // DJ
 	public static void main(String[] args){
 		System.out.println("Beginnen");
 		Fiets f = new Fiets(17);
@@ -7,8 +7,12 @@ class Demo{   // DI
 	}
 
 }
-
-class Fiets{
+class Voertuig{
+	Voertuig(){
+		System.out.println("dit zien we niet");	
+	}
+}
+class Fiets extends Voertuig{
 	int snelheid = 25;
 	Fiets(int s){
 		System.out.println("Fietsje erbij: "+ s);

@@ -1,4 +1,4 @@
-class Demo{   // DH
+class Demo{   // DI
 	public static void main(String[] args){
 		System.out.println("Beginnen");
 		Fiets f = new Fiets(17);
@@ -9,12 +9,14 @@ class Demo{   // DH
 }
 
 class Fiets{
-	static int snelheid = 25;
+	int snelheid = 25;
 	Fiets(int s){
 		System.out.println("Fietsje erbij: "+ s);
+		snelheid++;
 		snelheid = s;
 	}
 	Fiets(){
+		this(8);
 		snelheid = 9;
 	}
 

@@ -1,9 +1,8 @@
-class Demo{   // DF
+class Demo{   // DG
 	public static void main(String[] args){
 		System.out.println("Beginnen");
 		Fiets f = new Fiets();
 		Fiets f2 = new Fiets();
-		f.snelheid = 14;
 		System.out.println(">> "+f2.snelheid);
 	}
 
@@ -11,8 +10,9 @@ class Demo{   // DF
 
 class Fiets{
 	static int snelheid = 25;
-	Fiets(){
+	Fiets(int s){
 		System.out.println("Fietsje erbij");
+		snelheid = s;
 	}
 
 }

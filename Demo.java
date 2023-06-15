@@ -1,8 +1,8 @@
-class Demo{   // EN
-	int iets = rennen();
+class Demo{   // EO
+	static int iets = rennen();
 	public static void main(String[] args){
 		System.out.println("Beginnen");
-		new Demo().iets(23);
+		iets(23);
 		System.out.println("Einde");
 	}
 	static void iets(int h){

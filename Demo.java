@@ -1,9 +1,15 @@
-class Demo{   // DA
+class Demo{   // DB
 	public static void main(String[] args){
 		System.out.println("Beginnen");
-		lopen();
+		Fiets f = new Fiets();
+		f.doen(6);
 	}
-	void lopen(){
-		System.out.println("lopen");
+
+}
+
+class Fiets{
+	int waarde = 25;
+	void doen(int waarde){
+		System.out.println(waarde);
 	}
 }

@@ -1,4 +1,4 @@
-class Demo{   // DE
+class Demo{   // DF
 	public static void main(String[] args){
 		System.out.println("Beginnen");
 		Fiets f = new Fiets();
@@ -10,7 +10,7 @@ class Demo{   // DE
 }
 
 class Fiets{
-	int snelheid = 25;
+	static int snelheid = 25;
 	Fiets(){
 		System.out.println("Fietsje erbij");
 	}
